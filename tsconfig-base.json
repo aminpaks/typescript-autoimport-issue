@@ -1,0 +1,25 @@
+{
+    "extends": "@tsconfig/strictest/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "./built/local",
+        "paths": {
+            "*": ["app/*"],
+            "react": ["node_modules/@types/react"],
+        },
+
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "disableReferencedProjectLoad": true,
+
+        "module": "esnext",
+        "target": "es2016",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "checkJs": false
+    }
+}
