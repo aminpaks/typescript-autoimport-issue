@@ -13,11 +13,12 @@
         "declaration": true,
         "declarationMap": true,
         "sourceMap": true,
+        "emitDeclarationOnly": true,
         "disableReferencedProjectLoad": true,
 
         "module": "esnext",
-        "target": "es2016",
-        "moduleResolution": "node",
+        "target": "esnext",
+        "moduleResolution": "bundler",
         "resolveJsonModule": true,
         "jsx": "react-jsx",
         "checkJs": false

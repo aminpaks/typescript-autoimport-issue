@@ -1,6 +1,7 @@
 # TypeScript composite project demo
-This is a minimal composite project to demo an issue where the auto-import stop working without explicitly including the referenced projects in the composite project's `tsconfig.include`.
+This is a minimal composite sample project to demo how the incremental build, and the auto-import can be achieved at the same time.
 
-If you open `app/main/Play.tsx`, and delete the first line, and try to auto import the `useCards` vscode doesn't offer you anything.
-
-We can solve this by including `app/shared/**/*` in `app/main/tsconfig.include` but that will break the incremental builds, and when `main` is builds it will always re-build the `shared` project. :|
+1. Clone the project
+2. Run `$ yarn install`
+3. Run `$ yarn tsc -b app --watch`
+4. Open `app/main/Play.tsx`, and try to auto import the `useCards` or `loadConfigs2`.

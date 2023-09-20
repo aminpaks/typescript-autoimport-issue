@@ -1,6 +1,10 @@
 {
     "extends": "../../tsconfig-base",
     "compilerOptions": {
+        "typeRoots": [
+            "../../node_modules/@types",
+            "../../built/local/app/shared",
+        ],
     },
     "include": [
         "**/*",

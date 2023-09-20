@@ -2,7 +2,5 @@
   "extends": "./tsconfig-base",
   "compileOnSave": false,
   "files": [],
-  "include": [
-    "app/**/*"
-  ],
+  "include": [],
 }

@@ -1,4 +1,3 @@
-import {useCards} from 'shared/cards';
 import {useText, useText1, useText2} from 'shared/texts';
 
 export function Play() {
@@ -7,6 +6,8 @@ export function Play() {
   useText2();
 
   useCards();
+
+  console.log(loadConfigs2())
 
   return <div>Play</div>
 }
