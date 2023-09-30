@@ -5,7 +5,7 @@
         "rootDir": ".",
         "outDir": "./built/local",
         "paths": {
-            "*": ["app/*"],
+            "~/*": ["app/*"],
             "react": ["node_modules/@types/react"],
         },
 
@@ -14,7 +14,7 @@
         "declarationMap": true,
         "sourceMap": true,
         "emitDeclarationOnly": true,
-        "disableReferencedProjectLoad": true,
+        "disableReferencedProjectLoad": false,
 
         "module": "esnext",
         "target": "esnext",

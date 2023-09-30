@@ -1,4 +1,17 @@
 {
+  "name": "react-typescript-composite-projects",
+  "private": true,
+  "scripts": {
+    "watch": "tsc --build app --watch"
+  },
+  "prettier": {
+    "printWidth": 90,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "bracketSpacing": false,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  },
   "dependencies": {
     "@tsconfig/strictest": "^2.0.2",
     "@types/react": "^18.2.21",

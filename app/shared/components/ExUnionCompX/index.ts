@@ -1,0 +1,1 @@
+export {ExUnionCompX} from './ExUnionCompX';

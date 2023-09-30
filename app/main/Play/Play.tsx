@@ -1,13 +1,5 @@
-import {useText, useText1, useText2} from 'shared/texts';
+import {ExUnionCompX} from '~/shared/components';
 
 export function Play() {
-  useText();
-  useText1();
-  useText2();
-
-  useCards();
-
-  console.log(loadConfigs2())
-
-  return <div>Play</div>
+  return <ExUnionCompX type={'validated__0011'} payload={{value: 'validated__0011'}} />;
 }
